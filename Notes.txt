@@ -1,0 +1,32 @@
+For..Next is faster than For..Next..Ctr
+
+While..Wend is faster than Do..While
+
+Do..While is faster than Do..Until
+
+If..var..Then is faster than If..var=True..Then
+
+If..len(s)=0..Then is faster than If..s=""..Then
+
+If..i..Then is faster than If..i<>0..Then
+
+Object.Property is faster than With..Object..End..With
+
+Property is faster than Me.Property
+
+Procedure is faster than Call..Procedure
+
+Function$ is faster than Function
+
+Trim$ is faster than RTrim$ and LTrim$
+
+StrComp(s1,s2) is faster than s1=s2
+
+UCase$ is faster than LCase$
+
+String$(n,20) is faster than Space$(n)
+
+For..To..C (C=Item.Count) is faster than For..To..Item.Count
+
+If..Not..Expression is faster than If..Expression=False
+
